@@ -83,7 +83,7 @@ author:
   name             : "Wenqi Wei"
   avatar           : "image2021.png"
   bio              : "Assistant Professor, ex-IBMer, Computer and Information Sciences Department, Fordham University"
-  location         : "610H, 113 West 60th street, New York City, NY 10023"
+  location         : "New York City"
   employer         :
 #   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=LBspGEwAAAAJ&hl=en"
@@ -234,19 +234,27 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+#   # _portfolio
+#   - scope:
+#       path: ""
+#       type: portfolio
+#     values:
+#       layout: single
+#       author_profile: true
+#       share: true
+#       comment: true
   # _talks
   - scope:
       path: ""
       type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+       # _service
+  - scope:
+      path: ""
+      type: service
     values:
       layout: talk
       author_profile: true
@@ -262,7 +270,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
